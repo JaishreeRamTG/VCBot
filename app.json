@@ -10,18 +10,18 @@
     "stack": "container",
     "env": {
         "API_ID": {
-            "description": "Get this value from my.telegram.org!l",
-            "value": "",
+            "description": "Get this value from my.telegram.org!",
+            "value": "your_api_id_here",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from my.telegram.org!",
-            "value": "",
+            "value": "your_api_hash_here",
             "required": true
         },
         "SESSION": {
             "description": "A pyrogram session, get this value by running python3 sessiongen.py locally.",
-            "value": "",
+            "value": "your_session_value_here",
             "required": true
         },
         "PREFIX": {
@@ -31,7 +31,7 @@
         },
         "SUDOS": {
             "description": "User ID of users who can use commands, split by space.",
-            "value": "",
+            "value": "user_id1 user_id2",
             "required": true
         }
     },
